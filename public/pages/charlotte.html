@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../public/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="../../node_modules/@popperjs/core/dist/umd/popper.js"
+      defer
+    ></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.js" defer></script>
+    <title>Recettes</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="../../index.html">Me0w</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="../../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item text-dark"
+                      href="../pages/principaux.html"
+                      >Plats principaux</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-dark"
+                      href="../pages/apéritifs.html"
+                      >Apéritifs</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-dark"
+                      href="../pages/cocktails.html"
+                      >Cocktails</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a
+                      class="dropdown-item text-dark"
+                      href="../pages/recettes.html"
+                      >Toutes les recettes</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <!-- PLATS PRINCIPAUX -->
+        <div class="title bg-warning" style="height: 5rem">
+            <a href="#">
+              <h1 class="display-4 fw-bold text-center" id="plats-principaux">
+                  <a href="./principaux.html">Plats principaux</a>
+              </h1>
+          </div>
+          <!-- SECTIONS -->
+          <section class="recettes gap-5 pt-5 pb-5">
+            <div class="card" style="width: 36rem">
+              <img
+                src="../assets/img/pierogi.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body bg-light">
+                <h4>Pierogi</h4>
+                <p class="card-text">
+                    Ces délicieuses poches de pâte polonaises sont généralement farcies de pommes de terre, fromage, choucroute ou viande. Cuites à l'eau puis souvent poêlées, elles sont servies avec de la crème fraîche et des oignons caramélisés.
+                </p>
+                <a href="../pages/pierogi.html" class="btn btn-primary">Aller vers la recette</a>
+              </div>
+            </div>
+            <div class="card" style="width: 36rem">
+              <img
+                src="../assets/img/carbonara.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body bg-light">
+                <h4>Carbonara</h4>
+                <p class="card-text">
+                    Ce plat italien classique consiste en des pâtes enrobées d'une sauce crémeuse à base d'œufs, de pecorino romano, de poivre noir et de guanciale croustillant. Sa simplicité cache une richesse de saveurs où le crémeux des œufs rencontre le sel du fromage et la texture du guanciale.
+                </p>
+                <a href="../pages/carbonara.html" class="btn btn-primary">Aller vers la recette</a>
+              </div>
+            </div>
+            <div class="card" style="width: 36rem">
+              <img
+                src="../assets/img/pizza.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body bg-light">
+                <h4>Pizza</h4>
+                <p class="card-text">
+                    Originaire d'Italie, cette pâte plate garnie de sauce tomate, fromage et divers ingrédients est cuite au four jusqu'à perfection. Sa polyvalence infinie et son équilibre entre croûte, sauce et garnitures en font un plat apprécié dans le monde entier.
+                </p>
+                <a href="../pages/pizza.html" class="btn btn-primary">Aller vers la recette</a>
+              </div>
+            </div>
+          </section>
+    <!-- FOOTER -->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="../../index.html" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="./public/pages/recettes.html"
+              class="nav-link px-2 text-muted"
+              >Recettes</a
+            >
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="nav-link px-2 text-muted"
+              >Facebook</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="nav-link px-2 text-muted"
+              >Instagram</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://x.com/"
+              target="_blank"
+              class="nav-link px-2 text-muted"
+              >X</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-muted">© 2025 Me0w, Inc</p>
+      </footer>
+    </div>
+  </body>
+</html>
