@@ -3,10 +3,6 @@
   justify-content: space-evenly;
 }
 
-section > div > img {
-  height: 500px;
-}
-
 .title {
   width: 35rem;
   border-radius: 15px;
