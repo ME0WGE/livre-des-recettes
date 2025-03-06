@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="../../node_modules/@popperjs/core/dist/umd/popper.js"
+      defer
+    ></script>
+    <script
+      src="../../node_modules/bootstrap/dist/js/bootstrap.js"
+      defer
+    ></script>
+    <title>Recettes</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="../../index.html">Me0w</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="../../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item text-dark"
+                    href="../pages/principaux.html"
+                    >Plats principaux</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-dark"
+                    href="../pages/apéritifs.html"
+                    >Apéritifs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-dark"
+                    href="../pages/cocktails.html"
+                    >Cocktails</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-dark"
+                    href="../pages/recettes.html"
+                    >Toutes les recettes</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item"></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- COCKTAILS -->
+    <div class="title bg-success" style="height: 5rem">
+      <h1 class="display-4 fw-bold text-center" id="cocktails">
+        <a href="../pages/cocktails.html">Cocktails</a>
+      </h1>
+    </div>
+    <!-- SECTIONS -->
+    <section class="recettes gap-5 pt-5 pb-5">
+      <div class="card" style="width: 36rem">
+        <img src="../assets/img/limonade.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-light">
+          <h4>Limonade</h4>
+          <p class="card-text">
+            Cette boisson rafraîchissante est préparée à partir de jus de citron
+            fraîchement pressé, d'eau et de sucre, parfois agrémentée de
+            feuilles de menthe ou de tranches d'agrumes. Son équilibre parfait
+            entre acidité et douceur en fait le compagnon idéal des chaudes
+            journées d'été.
+          </p>
+          <a href="../pages/limonade.html" class="btn btn-primary"
+            >Aller vers la recette</a
+          >
+        </div>
+      </div>
+      <div class="card" style="width: 36rem">
+        <img src="../assets/img/martini.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-light">
+          <h4>Martini</h4>
+          <p class="card-text">
+            Ce cocktail élégant, rendu célèbre par James Bond, est composé de
+            gin ou de vodka et de vermouth sec, généralement garni d'une olive
+            ou d'un zeste de citron. Sa simplicité sophistiquée et son goût net
+            en font un classique intemporel des bars du monde entier.
+          </p>
+          <a href="../pages/martini.html" class="btn btn-primary"
+            >Aller vers la recette</a
+          >
+        </div>
+      </div>
+      <div class="card" style="width: 36rem">
+        <img src="../assets/img/mojito.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-light">
+          <h4>Mojito</h4>
+          <p class="card-text">
+            Originaire de Cuba, ce cocktail rafraîchissant mélange rhum blanc,
+            sucre de canne, citron vert, feuilles de menthe fraîche écrasées et
+            eau gazeuse. Ses notes acidulées et mentholées en font une boisson
+            parfaite pour se rafraîchir lors des soirées estivales.
+          </p>
+          <a href="../pages/mojito.html" class="btn btn-primary"
+            >Aller vers la recette</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="../../index.html" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="./public/pages/recettes.html"
+              class="nav-link px-2 text-muted"
+              >Recettes</a
+            >
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="nav-link px-2 text-muted"
+              >Facebook</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="nav-link px-2 text-muted"
+              >Instagram</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://x.com/"
+              target="_blank"
+              class="nav-link px-2 text-muted"
+              >X</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-muted">© 2025 Me0w, Inc</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="../../node_modules/@popperjs/core/dist/umd/popper.js"
+      defer
+    ></script>
+    <script
+      src="../../node_modules/bootstrap/dist/js/bootstrap.js"
+      defer
+    ></script>
+    <title>Recettes</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="../../index.html">Me0w</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="../../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item text-dark"
+                    href="../pages/principaux.html"
+                    >Plats principaux</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-dark"
+                    href="../pages/apéritifs.html"
+                    >Apéritifs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-dark"
+                    href="../pages/cocktails.html"
+                    >Cocktails</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-dark"
+                    href="../pages/recettes.html"
+                    >Toutes les recettes</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item"></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- SECTIONS -->
+    <section class="recettes gap-5 pt-5 pb-5">
+      <div class="card" style="width: 36rem">
+        <img
+          src="../assets/img/charcuterie.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body bg-light">
+          <h4>Plat de charcuterie</h4>
+          <p class="card-text">
+            Cette composition artistique regroupe diverses viandes séchées et
+            curées, fromages, fruits, noix et condiments disposés sur une
+            planche. Chaque bouchée offre une combinaison unique de saveurs,
+            textures et arômes qui se complètent parfaitement.
+          </p>
+          <hr />
+          <h3 id="liste-ingrédients-charcuterie">Liste des ingrédients</h3>
+          <ul>
+            <li>Tomates séchée</li>
+            <li>Jambon cru</li>
+            <li>Saucisson au poivre</li>
+            <li>Lomo embuchado</li>
+            <li>Chorizo</li>
+            <li>Tomme de Savoie</li>
+            <li>Camambert</li>
+            <li>Ossau iraty</li>
+            <li>Bûche de chèvre</li>
+            <li>Pain de campagne</li>
+            <li>Noisettes grillées</li>
+            <li>Confiture de cerise noire</li>
+            <li>Pignons grillés</li>
+            <li>Abricot sec</li>
+            <li>Raisins secs</li>
+            <li>Poire</li>
+          </ul>
+
+          <h3 id="étapes-recette-charcuterie">Étapes de la recette</h3>
+          <ol>
+            <li>
+              Munissez-vous d’un grand plateau en bois. Découpez les abricots
+              secs en lamelles. Faites de même avec les tomates séchées. Pelez
+              la poire et taillez-la en bâtonnets. Placez un peu de confiture de
+              cerise noire dans un petit ramequin ou une petite cuillère en
+              bois.
+            </li>
+            <li>
+              Dressez d’abord la charcuterie. Roulez légèrement le jambon cru
+              pour apporter du volume. Pliez les tranches de saucisson. Disposez
+              la charcuterie de façon élégante en occupant l’espace et en
+              évitant que différents produits se touchent. Superposez légèrement
+              les tranches d’un même produit pour un effet de quantité.
+            </li>
+            <li>
+              Dressez ensuite les morceaux de fromages préalablement découpés en
+              petites portions. Optez pour des formes différentes pour chaque
+              fromage. Ne concentrez pas le même fromage à un seul endroit du
+              plateau. Faites plutôt des petits “îlots”.
+            </li>
+            <li>
+              Décorez ensuite avec les fruits secs répartis de façon
+              harmonieuse. Déposez la cuillère de confiture. L’objectif est de
+              couvrir la totalité du plateau avec les produits. Servez
+              immédiatement avec des tranches de pain de campagne, légèrement
+              grillées si vous le souhaitez.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="../../index.html" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="./public/pages/recettes.html"
+              class="nav-link px-2 text-muted"
+              >Recettes</a
+            >
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="nav-link px-2 text-muted"
+              >Facebook</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="nav-link px-2 text-muted"
+              >Instagram</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://x.com/"
+              target="_blank"
+              class="nav-link px-2 text-muted"
+              >X</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-muted">© 2025 Me0w, Inc</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.recettes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section > div > img {
+  height: 500px;
+}
+
+.title {
+  width: 35rem;
+  border-radius: 15px;
+  margin-top: 1rem;
+  margin-left: 42rem;
+}
+
+img {
+  justify-self: center;
+  height: 500px;
+  width: 600px;
+}

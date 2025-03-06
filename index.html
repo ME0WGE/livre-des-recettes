@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="./node_modules/@popperjs/core/dist/umd/popper.js"
+      defer
+    ></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js" defer></script>
+    <title>Bootstrap</title>
+  </head>
+  <body class="bg-light">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="./index.html">Me0w</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item text-dark"
+                    href="./public/pages/principaux.html"
+                    >Plats principaux</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-dark"
+                    href="./public/pages/apéritifs.html"
+                    >Apéritifs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-dark"
+                    href="./public/pages/cocktails.html"
+                    >Cocktails</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-dark"
+                    href="./public/pages/recettes.html"
+                    >Toutes les recettes</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- CROUSEL -->
+    <div class="carousel">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./public/assets/img/carbonara.jpg"
+              class="d-block"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./public/assets/img/pierogi.jpeg"
+              class="d-block"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./public/assets/img/pizza.jpg"
+              class="d-block"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="./public/assets/img/ail.jpg" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./public/assets/img/charcuterie.jpg"
+              class="d-block"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./public/assets/img/salade.jpg"
+              class="d-block"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./public/assets/img/limonade.jpg"
+              class="d-block"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./public/assets/img/martini.jpg"
+              class="d-block"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./public/assets/img/mojito.jpg"
+              class="d-block"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bg-dark"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bg-dark"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="./public/pages/recettes.html"
+              class="nav-link px-2 text-muted"
+              >Recettes</a
+            >
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="nav-link px-2 text-muted"
+              >Facebook</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="nav-link px-2 text-muted"
+              >Instagram</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://x.com/"
+              target="_blank"
+              class="nav-link px-2 text-muted"
+              >X</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-muted">© 2025 Me0w, Inc</p>
+      </footer>
+    </div>
+  </body>
+</html>
