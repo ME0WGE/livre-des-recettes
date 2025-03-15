@@ -3,6 +3,7 @@ let btnForm = document.querySelector(".btn");
 let inputForm = document.querySelector(".email");
 let section = document.querySelectorAll("section");
 let btn = document.createElement("button");
+let carte = document.querySelector(".card");
 
 btnForm.addEventListener("click", (e) => {
   e.preventDefault();
@@ -45,12 +46,10 @@ for (let i = 0; i < section.length; i++) {
         btn.textContent = "REMOVE";
         element[1].appendChild(btn);
 
-        btn.addEventListener("click", () => {
-          card[0].remove();
-        });
+        btn.addEventListener("click", () => {});
       });
       element[1].addEventListener("click", () => {
-        element[1].removeChild(btn);
+        btn.remove();
       });
     }
   }
