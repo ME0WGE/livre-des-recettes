@@ -2,6 +2,7 @@
 let btnForm = document.querySelector(".btn");
 let inputForm = document.querySelector(".email");
 let section = document.querySelectorAll("section");
+let btn = document.createElement("button");
 
 btnForm.addEventListener("click", (e) => {
   e.preventDefault();
@@ -34,5 +35,23 @@ for (let i = 0; i < section.length; i++) {
     card[i].addEventListener("click", () => {
       card[i].style.boxShadow = "0px 0px";
     });
+    for (let i = 0; i < card.length; i++) {
+      const element = card[i].children;
+      element[1].addEventListener("dblclick", () => {
+        btn.style.width = "100px";
+        btn.style.height = "50px";
+        btn.style.backgroundColor = "red";
+        btn.style.color = "white";
+        btn.textContent = "REMOVE";
+        element[1].appendChild(btn);
+
+        btn.addEventListener("click", () => {
+          card[0].remove();
+        });
+      });
+      element[1].addEventListener("click", () => {
+        element[1].removeChild(btn);
+      });
+    }
   }
 }
