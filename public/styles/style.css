@@ -38,3 +38,9 @@ a:link {
 a:visited {
   color: white;
 }
+:hover {
+  color: white;
+}
+button {
+  border-radius: 10px;
+}
