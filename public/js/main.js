@@ -31,7 +31,7 @@ for (let i = 0; i < section.length; i++) {
   const card = section[i].children;
   for (let i = 0; i < card.length; i++) {
     card[i].addEventListener("dblclick", () => {
-      card[i].style.boxShadow = "5px 5px";
+      card[i].style.boxShadow = "5px 5px rgb(142, 141, 255)";
     });
     card[i].addEventListener("click", () => {
       card[i].style.boxShadow = "0px 0px";
