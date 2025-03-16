@@ -1,12 +1,17 @@
 // Variables
 let btnForm = document.querySelector(".btn");
-let inputForm = document.querySelector(".email");
+let inputForm = document.querySelector("#exampleInputEmail1");
 let section = document.querySelectorAll("section");
 let btn = document.createElement("button");
 let carte = document.querySelector(".card");
 
+// Form
 btnForm.addEventListener("click", (e) => {
   e.preventDefault();
+  let inputValue = inputForm.value
+  alert(`Merci d'avoir souscrit à notre Newsletter!
+E-Mail souscrit: ${inputValue}`)
+
 });
 
 // Dark card on hover
