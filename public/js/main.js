@@ -8,10 +8,9 @@ let carte = document.querySelector(".card");
 // Form
 btnForm.addEventListener("click", (e) => {
   e.preventDefault();
-  let inputValue = inputForm.value
+  let inputValue = inputForm.value;
   alert(`Merci d'avoir souscrit à notre Newsletter!
-E-Mail souscrit: ${inputValue}`)
-
+E-Mail souscrit: ${inputValue}`);
 });
 
 // Dark card on hover
