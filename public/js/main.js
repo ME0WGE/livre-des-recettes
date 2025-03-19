@@ -97,7 +97,8 @@ for (let i = 0; i < section.length; i++) {
 if (btnRedirect.length > 0) {
   btnRedirect.forEach((button) => {
     button.addEventListener("click", () => {
-      window.location.href = "../public/pages/recettes.html";
+      window.location.href =
+        "https://me0wge.github.io/livre-des-recettes/public/pages/recettes.html";
     });
   });
 }
