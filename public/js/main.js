@@ -97,36 +97,36 @@ for (let i = 0; i < section.length; i++) {
 if (btnRedirect.length > 0) {
   btnRedirect.forEach((button) => {
     button.addEventListener("click", () => {
-      window.location = "/public/pages/recettes.html";
+      window.location.href = "../public/pages/recettes.html";
     });
   });
 }
 if (btnPrincipaux) {
   btnPrincipaux.addEventListener("click", () => {
-    window.location = "/public/pages/principaux.html";
+    window.location.href = "../public/pages/principaux.html";
   });
 }
 
 if (btnApéritifs) {
   btnApéritifs.addEventListener("click", () => {
-    window.location = "/public/pages/apéritifs.html";
+    window.location.href = "../public/pages/apéritifs.html";
   });
 }
 
 if (btncocktails) {
   btncocktails.addEventListener("click", () => {
-    window.location = "/public/pages/cocktails.html";
+    window.location.href = "../public/pages/cocktails.html";
   });
 }
 
 if (btnCharlotte) {
   btnCharlotte.addEventListener("click", () => {
-    window.location = "/public/pages/charlotte.html";
+    window.location.href = "../public/pages/charlotte.html";
   });
 }
 
 if (btnToutes) {
   btnToutes.addEventListener("click", () => {
-    window.location = "/public/pages/recettes.html";
+    window.location.href = "../public/pages/recettes.html";
   });
 }
