@@ -7,8 +7,8 @@ let carte = document.querySelector(".card");
 
 // Form
 /**
- * Le code pour gérer le form fonctionne uniquement dans le fichier index.html.
- * C'est assez intriguant, je n'arrive pas à le faire fonctionner sur recettes.html par exemple.
+ * Le code pour gérer le form ne fonctionne pas sur toutes les pages.
+ * C'est assez intriguant, je n'arrive pas à le faire fonctionner sur recettes.html, alors qu'il fonctionne dans index.html.
  * Pourtant le reste du code fonctionne très bien sur toutes les pages.
  */
 btnForm.addEventListener("click", (e) => {
