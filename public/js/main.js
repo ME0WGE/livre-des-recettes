@@ -104,30 +104,35 @@ if (btnRedirect.length > 0) {
 }
 if (btnPrincipaux) {
   btnPrincipaux.addEventListener("click", () => {
-    window.location.href = "../public/pages/principaux.html";
+    window.location.href =
+      "https://me0wge.github.io/livre-des-recettes/public/pages/principaux.html";
   });
 }
 
 if (btnApéritifs) {
   btnApéritifs.addEventListener("click", () => {
-    window.location.href = "../public/pages/apéritifs.html";
+    window.location.href =
+      "https://me0wge.github.io/livre-des-recettes/public/pages/apéritifs.html";
   });
 }
 
 if (btncocktails) {
   btncocktails.addEventListener("click", () => {
-    window.location.href = "../public/pages/cocktails.html";
+    window.location.href =
+      "https://me0wge.github.io/livre-des-recettes/public/pages/cocktails.html";
   });
 }
 
 if (btnCharlotte) {
   btnCharlotte.addEventListener("click", () => {
-    window.location.href = "../public/pages/charlotte.html";
+    window.location.href =
+      "https://me0wge.github.io/livre-des-recettes/public/pages/charlotte.html";
   });
 }
 
 if (btnToutes) {
   btnToutes.addEventListener("click", () => {
-    window.location.href = "../public/pages/recettes.html";
+    window.location.href =
+      "https://me0wge.github.io/livre-des-recettes/public/pages/recettes.html";
   });
 }
