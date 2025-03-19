@@ -1,5 +1,6 @@
 // Variables
-let btnForm = document.querySelector(".btn");
+let btnForm = document.querySelector(".btn-primary");
+let btnRedirect = document.querySelector(".btn-recettes");
 let inputForm = document.querySelector("#exampleInputEmail1");
 let section = document.querySelectorAll("section");
 let btn = document.createElement("button");
@@ -16,6 +17,11 @@ btnForm.addEventListener("click", (e) => {
   const inputValue = inputForm.value;
   alert(`Merci d'avoir souscrit à notre Newsletter!
 E-Mail souscrit: ${inputValue}`);
+});
+
+// btnRedirection vers recettes.html
+btnRedirect.addEventListener("click", () => {
+  window.location = "../../public/pages/recettes.html";
 });
 
 // Dark card on hover
