@@ -1,6 +1,11 @@
 // Variables
 let btnForm = document.querySelector(".btn-primary");
 let btnRedirect = document.querySelector(".btn-recettes");
+let btnPrincipaux = document.querySelector(".btn-menu-principaux");
+let btnApéritifs = document.querySelector(".btn-menu-apéritifs");
+let btncocktails = document.querySelector(".btn-menu-cocktails");
+let btnCharlotte = document.querySelector(".btn-menu-charlotte");
+let btnToutes = document.querySelector(".btn-menu-toutes");
 let inputForm = document.querySelector("#exampleInputEmail1");
 let section = document.querySelectorAll("section");
 let btn = document.createElement("button");
