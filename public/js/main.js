@@ -1,6 +1,6 @@
 // Variables
 let btnForm = document.querySelector(".btn-primary");
-let btnRedirect = document.querySelector(".btn-recettes");
+let btnRedirect = document.querySelectorAll(".btn-recettes");
 let btnPrincipaux = document.querySelector(".btn-menu-principaux");
 let btnApéritifs = document.querySelector(".btn-menu-apéritifs");
 let btncocktails = document.querySelector(".btn-menu-cocktails");
@@ -16,18 +16,16 @@ let carte = document.querySelector(".card");
  * Le code pour gérer le form ne fonctionne pas sur toutes les pages.
  * C'est assez intriguant, je n'arrive pas à le faire fonctionner sur recettes.html, alors qu'il fonctionne dans index.html.
  * Pourtant le reste du code fonctionne très bien sur toutes les pages.
+ * UPDATE: Parfois ça fonctionne et parfois non??? Je comprends encore moins mdr.
  */
-btnForm.addEventListener("click", (e) => {
-  e.preventDefault();
-  const inputValue = inputForm.value;
-  alert(`Merci d'avoir souscrit à notre Newsletter!
+if (btnForm && inputForm) {
+  btnForm.addEventListener("click", (e) => {
+    e.preventDefault();
+    const inputValue = inputForm.value;
+    alert(`Merci d'avoir souscrit à notre Newsletter!
 E-Mail souscrit: ${inputValue}`);
-});
-
-// btnRedirection vers recettes.html
-btnRedirect.addEventListener("click", () => {
-  window.location = "../../public/pages/recettes.html";
-});
+  });
+}
 
 // Dark card on hover
 for (let i = 0; i < section.length; i++) {
@@ -92,5 +90,43 @@ for (let i = 0; i < section.length; i++) {
         cardToRemove.remove();
       }
     }
+  });
+}
+
+// btnRedirect vers recettes.html & menu buttons redirections
+if (btnRedirect.length > 0) {
+  btnRedirect.forEach((button) => {
+    button.addEventListener("click", () => {
+      window.location = "../../public/pages/recettes.html";
+    });
+  });
+}
+if (btnPrincipaux) {
+  btnPrincipaux.addEventListener("click", () => {
+    window.location = "../../public/pages/principaux.html";
+  });
+}
+
+if (btnApéritifs) {
+  btnApéritifs.addEventListener("click", () => {
+    window.location = "../../public/pages/apéritifs.html";
+  });
+}
+
+if (btncocktails) {
+  btncocktails.addEventListener("click", () => {
+    window.location = "../../public/pages/cocktails.html";
+  });
+}
+
+if (btnCharlotte) {
+  btnCharlotte.addEventListener("click", () => {
+    window.location = "../../public/pages/charlotte.html";
+  });
+}
+
+if (btnToutes) {
+  btnToutes.addEventListener("click", () => {
+    window.location = "../../public/pages/recettes.html";
   });
 }
