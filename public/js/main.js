@@ -104,6 +104,7 @@ if (btnRedirect.length > 0) {
     button.addEventListener("click", () => {
       window.location.href =
         "https://me0wge.github.io/livre-des-recettes/public/pages/recettes.html";
+      // "../pages/recettes.html"
     });
   });
 }
