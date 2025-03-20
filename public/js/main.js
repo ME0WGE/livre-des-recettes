@@ -1,5 +1,10 @@
 // Variables
 let btnForm = document.querySelector(".btn-primary");
+/**
+ * TODO
+ * Refaire btn en utilisant querySelAll
+ */
+// let btnForm = document.querySelectorAll(".btn-primary");
 let btnRedirect = document.querySelectorAll(".btn-recettes");
 let btnPrincipaux = document.querySelector(".btn-menu-principaux");
 let btnApéritifs = document.querySelector(".btn-menu-apéritifs");
